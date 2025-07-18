@@ -277,9 +277,7 @@
             align-items: center;
             justify-content: center;
         }
-#credits{
-  color: #0F6A05;
-}
+
         .difficulty-section div:first-child { /* Target the difficulty label */
             font-size: 1.3em; /* Slightly larger */
             margin-bottom: 15px;
@@ -480,9 +478,8 @@
                 First to 5 points wins! Ball speed increases over time. Keep an eye on the ball!
             </div>
         </div>
-
         <div class="expo-footer">
-            <h1 id="credits">Developed by Vishal Prabhu</h1>
+          <h1 id="credits">Developed by Vishal Prabhu</h1>
             &copy; 2025 Android Club. All Rights Reserved.
             <br>
             Thanks for celebrating with us!
@@ -520,29 +517,29 @@
         // Difficulty settings
         const difficultySettings = {
             easy: {
-                initialSpeed: 3,
-                maxSpeed: 6,
+                initialSpeed: 8,
+                maxSpeed: 14,
                 acceleration: 1.02,
                 paddleHeight: 80,
                 ballSize: 12
             },
             medium: {
-                initialSpeed: 4,
-                maxSpeed: 8,
+                initialSpeed: 10,
+                maxSpeed: 16,
                 acceleration: 1.05,
                 paddleHeight: 70,
                 ballSize: 10
             },
             hard: {
-                initialSpeed: 5,
-                maxSpeed: 10,
+                initialSpeed: 12,
+                maxSpeed: 18,
                 acceleration: 1.08,
                 paddleHeight: 60,
                 ballSize: 8
             },
             insane: {
-                initialSpeed: 6,
-                maxSpeed: 15,
+                initialSpeed: 15,
+                maxSpeed: 20,
                 acceleration: 1.12,
                 paddleHeight: 50,
                 ballSize: 6
